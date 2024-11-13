@@ -1,0 +1,55 @@
+[
+  {
+    "apn": "09000011",
+    "datasources": [
+      {
+        "source": "Addresses",
+        "properties": ["Address", "Postal City", "Jurisdiction", "Zip"],
+        "records": [
+          {
+            "data": ["11111 Test Ln", "TT", "TT", "111111"],
+            "link": null
+          }
+        ]
+      },
+      {
+        "source": "Permits",
+        "properties": ["Permit Number", "Date", "Status", "Work Description"],
+        "records": [
+          {
+            "data": [
+              "2023-10172", 
+              "2024-04-09", 
+              "Inspection", 
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod #7"
+            ],
+            "link": "https://test.org/A-308970"
+          },
+          {
+            "data": [
+              "2023-10887", 
+              "2024-05-10", 
+              "Finaled", 
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            ],
+            "link": "https://test.org/A-308970"
+          }
+        ]
+      },
+      {
+        "source": "Business Licenses",
+        "properties": ["License", "Business name", "Status"],
+        "records": [
+          {
+            "data": [
+              "123456",
+              "Wedding Photography Guy",
+              "Closed"
+            ],
+            "link": "https://test.org"
+          }
+        ]
+      }
+    ]
+  }
+]
